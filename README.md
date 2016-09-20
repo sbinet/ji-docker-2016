@@ -8,6 +8,16 @@ The programming language used is [Go](https://golang.org).
 You won't be programming in [Go](https://golang.org) though, just modifying some
 strings being printed out.
 
+## Installation & pre-requisites
+
+You will need the `docker` container engine properly installed on your machine.
+This is explained on the docker website:
+
+- https://docs.docker.com/engine/installation
+
+
+## Description
+
 This repository holds 2 applications:
 
 - `hello`, a command-line application that prints a greeting on the screen and tries to launch a sub-process (`pkg-config`, so nothing dangerous)
