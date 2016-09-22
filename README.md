@@ -15,13 +15,18 @@ This is explained on the docker website:
 
 - https://docs.docker.com/engine/installation
 
-
 ## Description
 
 This repository holds 2 applications:
 
 - `hello`, a command-line application that prints a greeting on the screen and tries to launch a sub-process (`pkg-config`, so nothing dangerous)
 - `web-app`, a simple `http` server that serves a single page at `0.0.0.0:8080`
+
+You *WON'T* need to install `Go` on your machine for this `ji-docker-2016` tutorial:
+`Go` will be installed in the container.
+
+The following are commands that should work *INSIDE* the container we will
+build and deploy, and are thus *PURELY* *INFORMATIONAL*...
 
 To build and install the `hello` command:
 
