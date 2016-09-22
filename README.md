@@ -35,8 +35,8 @@ $> cd ji-docker-2016
 $> go install ./hello
 $> hello
 hello JI-2016!
-running pkg-config --cflags python2 now...
--I/usr/include/python2.7
+running pkg-config --version systemd now...
+0.28
 ```
 
 Similarly, for the `web-app` server, this time using the full repository name:

@@ -9,8 +9,8 @@ import (
 
 func main() {
 	fmt.Printf("hello JI-2016!\n")
-	fmt.Printf("running pkg-config --cflags python2 now...\n")
-	cmd := exec.Command("pkg-config", "--cflags", "python2")
+	fmt.Printf("running pkg-config --version systemd now...\n")
+	cmd := exec.Command("pkg-config", "--version", "systemd")
 	cmd.Stdout = os.Stdout
 	cmd.Stderr = os.Stderr
 	err := cmd.Run()
