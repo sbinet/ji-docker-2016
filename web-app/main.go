@@ -20,8 +20,8 @@ func main() {
 
 func rootHandle(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "hello JI-2016!\n")
-	fmt.Fprintf(w, "\n\n--- running external command...\n\n>>> pkg-config --cflags python2\n")
-	cmd := exec.Command("pkg-config", "--cflags", "python2")
+	fmt.Fprintf(w, "\n\n--- running external command...\n\n>>> pkg-config --version systemd\n")
+	cmd := exec.Command("pkg-config", "--version", "systemd")
 	cmd.Stdout = w
 	cmd.Stderr = w
 	err := cmd.Run()
